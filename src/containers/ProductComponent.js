@@ -4,14 +4,14 @@ import { Card, Icon, Image } from 'semantic-ui-react';
 
 const ProductComponent = () => {
     const products = useSelector((state) => state.allProducts.products);
-    const {id, title, category} = products[0];
+    //const {id, title, category} = products[0];
     return (
         <Card>
             <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false} />
             <Card.Content>
-            <Card.Header>{title}</Card.Header>
+            <Card.Header>Vivek</Card.Header>
             <Card.Meta>
-                <span className='date'>{category}</span>
+                <span className='date'>Programmer</span>
             </Card.Meta>
             <Card.Description>
                 {/* Matthew is a musician living in Nashville. */}
