@@ -24,14 +24,12 @@ const ProductListing = () => {
     );
 
     return (
-        <div>
-            <h1>Product Listing</h1>
             <div className="ui equal width grid container">
+                <h1>Our Product(s)</h1>
                 <div className="four column row">
                     <ProductComponent />
                 </div>
             </div>
-        </div>
     )
 }
 
